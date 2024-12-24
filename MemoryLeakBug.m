@@ -1,0 +1,1 @@
+In Objective-C, a common yet subtle error involves incorrect handling of object ownership and memory management, particularly when dealing with properties and delegation.  For instance, consider a scenario where a class retains an object in its property, but forgets to release it upon deallocation. This leads to a memory leak.
