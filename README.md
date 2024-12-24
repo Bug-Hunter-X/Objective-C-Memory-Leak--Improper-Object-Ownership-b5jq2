@@ -1,0 +1,1 @@
+This repository demonstrates a common Objective-C bug: a memory leak caused by improper object management. The `MemoryLeakBug.m` file contains the buggy code, where a class retains an object without releasing it during deallocation. The `MemoryLeakSolution.m` file provides the corrected code, showcasing proper memory management using techniques like `dealloc` and `release`.
